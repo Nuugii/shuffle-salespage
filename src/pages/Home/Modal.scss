@@ -1,0 +1,95 @@
+.popup-overlay {
+    background: rgba(0,0,0,.5);
+}
+
+.popup-content {
+    margin: auto;
+    background: #fff;
+    width: 1000px;
+    -webkit-animation: anvil .3s cubic-bezier(.38,.1,.36,.9) forwards;
+    border-radius: 5px;
+    color: #232429;
+    font-family: 'Roboto';
+}
+
+.modal {
+    font-size: 12px;
+}
+.modal > .header {
+    background-image: url('/assets/footer.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 140px;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding-top: 50px;
+    border-radius: 5px 5px 0px 0px;
+}
+.modal > .content {
+    width: 100%;
+    padding: 50px 0px 20px 0px;
+    text-align: center;
+    font-size: 16px;
+}
+.modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 5px;
+    right: 10px;
+    top: 5px;
+    font-size: 24px;
+    background: none;
+    border-radius: 18px;
+    border: none;
+    color: #fff;
+}
+
+.modal .text {
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+}
+.modal .special {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 34px;
+}
+.modal .cyan{
+    color: #2dadf5;
+}
+
+.modal #modal-iframe {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.modal > .close-legal {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 5px;
+    right: 20px;
+    top: 5px;
+    font-size: 24px;
+    background: none;
+    border-radius: 18px;
+    border: none;
+    color: #222;
+}
+.modal > .content-legal {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 16px;
+    height: 600px;
+}

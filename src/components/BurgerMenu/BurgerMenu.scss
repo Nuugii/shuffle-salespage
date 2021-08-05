@@ -1,0 +1,87 @@
+disable-scroll {
+	overflow: hidden;
+}
+
+.bm-item {
+	display: inline-block;
+
+	/* Our sidebar item styling */
+	text-decoration: none;
+	margin-bottom: 1.5rem;
+	color: #4c7ace;
+	transition: color 0.2s;
+	font-family: "Roboto";
+	font-weight: 600;
+	outline: none;
+	font-size: 1.3rem;
+}
+
+.bm-item:hover {
+	opacity: .8;
+}
+
+.bm-burger-button {
+	position: absolute;
+	width: 34px;
+	height: 26px;
+	right: 25px;
+	top: 25px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+	background: rgb(19,103,206);
+	border-radius: 16px;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+	height: 34px !important;
+	width: 34px !important;
+	right: 27px !important;
+	top: 15px !important;
+	color: #fff;
+}
+
+.bm-cross {
+	height: 34px !important;
+	background-color: rgb(19,103,206);
+	width: 4px !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+	background: #fff;
+    font-size: 1.15rem;
+    position: relative;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+	fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #b8b7ad;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+	background: rgba(0, 0, 0, 0.05) !important;
+}
+
+@media only screen and (min-width: 62.5rem) {
+	.bm-burger-button {
+		display: none;
+	}
+}
